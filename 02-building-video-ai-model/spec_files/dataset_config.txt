@@ -1,0 +1,13 @@
+dataset_config: {
+  data_sources: {
+    tfrecords_path: "/dli/task/tao_project/data/tfrecords/kitti_trainval/*"
+    image_directory_path: "/dli/task/tao_project/data/training"
+  }
+  image_extension: "png"
+  target_class_mapping: {
+      key: "car"
+      value: "car"
+  }
+  validation_fold: 0
+}
+########## LEAVE NEW LINE BELOW

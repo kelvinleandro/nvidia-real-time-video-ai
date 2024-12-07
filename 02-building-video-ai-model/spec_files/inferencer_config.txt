@@ -1,0 +1,11 @@
+inferencer_config: {
+  target_classes: "car"
+  image_width: 882
+  image_height: 692
+  image_channels: 3
+  batch_size: 16
+  tlt_config: {
+    model: "/dli/task/tao_project/models/resnet18_detector/weights/resnet18_detector.tlt"
+  }
+}
+########## LEAVE NEW LINE BELOW
